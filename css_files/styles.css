@@ -1,4 +1,3 @@
-<style>
 
 h1 {
   text-align: center;
@@ -11,7 +10,7 @@ p {
 
 body {
   text-align: center;
-  background: url("/images/halong_bay_unsplash.jpg");
+  background: url("../images/halong_bay_unsplash.jpg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -28,5 +27,3 @@ input[type="submit"] {
   background: red;
   color: white;
 }
-
-</style>
