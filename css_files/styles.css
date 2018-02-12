@@ -1,0 +1,32 @@
+<style>
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+}
+
+body {
+  text-align: center;
+  background: url("/images/halong_bay.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  background: red;
+  color: white;
+}
+
+</style>
