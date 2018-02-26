@@ -9,12 +9,12 @@ p {
 }
 
 body {
-  text-align: center;
-  background: url("../images/london_paris_banner.png");
-  background-repeat: no-repeat;
+  background: url("../images/london_paris_banner.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  color: white;
+  text-align: center;
   font-family: helvetica;
 }
 
