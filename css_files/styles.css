@@ -10,7 +10,8 @@ p {
 
 body {
   text-align: center;
-  background: url("../images/halong_bay_unsplash.jpg");
+  background: url("../images/london_paris_banner.png");
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
