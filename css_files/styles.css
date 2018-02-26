@@ -22,9 +22,14 @@ input {
   border: 0;
   padding: 10px;
   font-size: 18px;
+  color: black;
 }
 
 input[type="submit"] {
   background: red;
   color: white;
+}
+
+blockquote {
+  border-left: 0px solid #eee;
 }
