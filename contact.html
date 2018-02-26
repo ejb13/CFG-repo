@@ -4,19 +4,21 @@
 
 <head>
 
-  <title> [London2Paris] </title>
+  <title> London2ParisCycle </title>
   <!--the above content controls what is shown in the browser tab-->
 
-  <link href="../css_files/bootstrap.css" type="text/css" rel="stylesheet">
-  <!-- link to css files from boostrap folder -->
-  <!--remember to add ref to additional css files that overwrite bootstrap styling, but link AFTER bootstrap.css file-->
-  <meta name="viewport" conttent="width=device-width, initial-scale=1.0">
-  <!-- for mobile site -->
-  <link href="../css_files/styles.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css_files/navbar.css" type="text/css" rel="stylesheet">
+  <link href="css_files/styles.css" type="text/css" rel="stylesheet">
   <!--above is relative link to css files-->
 
+
+  <meta name="viewport" conttent="width=device-width, initial-scale=1.0">
+  <!-- for mobile site -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
-  <script tyle="text/javascript" src="../javascript_files/submit_button.js"> </script>
+  <script type="text/javascript" src="javascript_files/submit_button.js"> </script>
+  <script type="text/javascript" src="javascript_files/bootstrap.js"> </script>
   <!--above is relative link to javascript files-->
 
 </head>
@@ -24,6 +26,26 @@
 
 
 <body>
+
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+
+    <div class="dropdown">
+
+      <button class="dropbtn">Menu
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <div class="dropdown-content">
+
+        <a href="contact.html">Contact</a>
+        <a href="participants.html">Participants</a>
+
+      </div>
+
+    </div>
+
+  </div>
 
   <h1> Ways to get involved </h1>
 

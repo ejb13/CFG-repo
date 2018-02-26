@@ -1238,6 +1238,7 @@ h2 .small,
 h3 .small,
 .h3 .small {
   font-size: 65%;
+  color: inherit;
 }
 h4,
 .h4,
@@ -1261,6 +1262,7 @@ h5 .small,
 h6 .small,
 .h6 .small {
   font-size: 75%;
+  color: inherit;
 }
 h1,
 .h1 {
@@ -1303,6 +1305,7 @@ p {
 small,
 .small {
   font-size: 85%;
+  color: inherit;
 }
 mark,
 .mark {
