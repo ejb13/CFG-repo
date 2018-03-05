@@ -4,26 +4,48 @@
 
 <head>
 
-  <title> [London2Paris] </title>
+  <title> London2Paris </title>
   <!--the above content controls what is shown in the browser tab-->
 
-  <link href="../css_files/bootstrap.css" type="text/css" rel="stylesheet">
-  <!-- link to css files from boostrap folder -->
-  <!--remember to add ref to additional css files that overwrite bootstrap styling, but link AFTER bootstrap.css file-->
-  <meta name="viewport" conttent="width=device-width, initial-scale=1.0">
-  <!-- for mobile site -->
-  <link href="../css_files/styles.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css_files/navbar.css" type="text/css" rel="stylesheet">
+  <link href="css_files/styles.css" type="text/css" rel="stylesheet">
   <!--above is relative link to css files-->
 
+
+  <meta name="viewport" conttent="width=device-width, initial-scale=1.0">
+  <!-- for mobile site -->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
-  <script tyle="text/javascript" src="../javascript_files/submit_button.js"> </script>
+  <script type="text/javascript" src="javascript_files/submit_button.js"> </script>
+  <script type="text/javascript" src="javascript_files/bootstrap.js"> </script>
   <!--above is relative link to javascript files-->
 
 </head>
 
-
-
 <body>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+
+      <button class="dropbtn">Menu
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <div class="dropdown-content">
+
+        <a href="about.html">about</a>
+        <a href="participants.html">participants</a>
+        <a href="contact.html">contact</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
 
   <div class="container" id="buzz">
   <!-- class="container" keeps content in own section of webpage - similar to page break, containers are also centered on page -->
@@ -32,40 +54,41 @@
     <div class="row">
     <!--in this container, produce row -->
 
-    <h2>The Participants<br /><small>Who's already involved?</small></h2>
+    <h1>THE PARTICIPANTS<br /><small>Who's already involved?</small></h1>
 
-      <div class="col-lg-4">
 
-        <img class="img-circle" src='../images/Barber_Ella.jpg'>
-        <!--class=img-circle softens edges of image-->
-        <blockquote> <!-- blockquote is an html tag - bootstrap then defines style for all blockquotes -->
-          <p>Ella Barber</p>
-          <small>[Intro?]</small>
-        </blockquote>
+    <div class="row"> <!--divides sections in to rows - sections below describe how much of the total 12 units
+     each section in the row should take up (i.e. we have 3 columns 4 units wide)-->
 
-      </div>
-
-      <div class="col-lg-4">
-
-        <img class="img-circle" src='../images/person.jpg'>
-
-        <blockquote>
-          <p>Bryony Simmons</p>
-          <small>[Intro]</small>
-        </blockquote>
-
-      </div>
-
-      <div class="col-lg-4">
-
-        <img class="img-circle" src='../images/person.jpg'>
-        <p>Could this be you?</p>
-
-      </div>
-
+    <div class="col-lg-4">
+      <img class="img-circle" src='images\Barber_Ella.jpg'>
+      <blockquote> <!-- blockquote is an html tag - bootstrap then defines style for all blockquotes -->
+        <p>Ella Barber</p>
+        <small>Ella has been cycling for fun for sometime now & is excited to take this opportunity to take it to the next level</small>
+      </blockquote>
     </div>
 
+    <div class="col-lg-4">
+      <img class="img-circle center-block" src='images\Simmons_Bryony.jpg'>
+      <blockquote> <!-- blockquote is an html tag - bootstrap then defines style for all blockquotes -->
+        <p>Bryony Simmons</p>
+        <small>Bryony is relatively new to cycling - but is enjoying it so far!</small>
+      </blockquote>
+    </div>
+
+    <div class="col-lg-4">
+      <img class="img-circle center-block" src='images/person.jpg'>
+      <blockquote> <!-- blockquote is an html tag - bootstrap then defines style for all blockquotes -->
+        <p>Could this be you?</p>
+        <small>Let us know if you want to get involved! We'd love to have you join us</small>
+      </blockquote>
+    </div>
+
+  </div>
 </div>
+
+
+
 
 
 </body>
